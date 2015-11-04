@@ -9,10 +9,11 @@
 
 	<groupId>picklesjar</groupId>
 	<artifactId>picklesjar.picklerecipes-jvm</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${project.version}</version>
 	<packaging>pom</packaging>
 
 	<properties>
+		<project.version>0.1</project.version>
 	</properties>
 
 	<build>
