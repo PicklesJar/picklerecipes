@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 import picklesjar.pickles.ut.recipes.MethodQueryString;
 
 @Target( { ElementType.FIELD } )
-@Retention( RetentionPolicy.SOURCE )
+@Retention( RetentionPolicy.RUNTIME )
 public @interface AccessorDataBridgeVariable {
 	
 	/**
