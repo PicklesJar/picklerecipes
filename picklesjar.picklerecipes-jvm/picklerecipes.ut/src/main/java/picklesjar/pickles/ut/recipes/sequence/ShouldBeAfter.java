@@ -6,6 +6,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+import picklesjar.pickles.ut.recipes.MethodQueryString;
+
 /**
  * 
  * 
@@ -25,6 +27,7 @@ public @interface ShouldBeAfter {
 	 */
 	public Class< ? > value();
 	
+	@MethodQueryString
 	public String[] queries() default {};
 	
 }
