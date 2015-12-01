@@ -1,13 +1,17 @@
-package picklesjar.pickles.ut.recipes.sequence;
+package picklesjar.picklerecipes.ut;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target( { ElementType.METHOD } )
+/**
+ * 
+ * 
+ * 
+ * @author PicklesCooker
+ * 
+ */
+@Target( { ElementType.TYPE_USE } )
 @Retention( RetentionPolicy.SOURCE )
-public @interface ShouldBeAfters {
-
-	public ShouldBeAfter[] value();
-}
+public @interface MethodQueryString {}

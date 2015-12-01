@@ -5,7 +5,7 @@
 
 	<name>PickleRecipes for Java</name>
 	<description></description>
-	<url>https://github.com/PicklesJar/pickesrecipes</url>
+	<url>https://github.com/PicklesJar/documents</url>
 
 	<groupId>picklesjar</groupId>
 	<artifactId>picklesjar.picklerecipes-jvm</artifactId>
@@ -13,7 +13,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<project.version>0.1</project.version>
+		<project.version>0.1.1</project.version>
 	</properties>
 
 	<build>

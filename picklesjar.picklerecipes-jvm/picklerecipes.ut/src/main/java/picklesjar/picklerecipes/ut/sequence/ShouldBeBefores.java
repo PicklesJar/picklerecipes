@@ -1,4 +1,4 @@
-package picklesjar.pickles.ut.recipes.sequence;
+package picklesjar.picklerecipes.ut.sequence;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

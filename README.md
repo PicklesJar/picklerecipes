@@ -1,3 +1,3 @@
-# picklerecipes
+# PickleRecipes
 
-Please reference https://github.com/PicklesJar/pickles
+Please reference https://github.com/PicklesJar/documents
